@@ -10,10 +10,10 @@ namespace Git2.Controllers
     {
         public ActionResult Index()
         {
-            int x = 63;
             return View();
         }
 
+        
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
